@@ -5,6 +5,7 @@ namespace App\Entity;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Cocur\Slugify\Slugify;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\SnippetRepository")
@@ -29,7 +30,7 @@ class Snippet
     private $content;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Language", inversedBy="snippets")
+     * @ORM\ManyToMany(targetEntity="App\Entity\Language", inversedBy="snippets", cascade={"persist"})
      */
     private $language;
 
@@ -91,5 +92,10 @@ class Snippet
         }
 
         return $this;
+    }
+
+    public function getSlug(): string
+    {
+        return (new Slugify())->slugify($this->title);
     }
 }

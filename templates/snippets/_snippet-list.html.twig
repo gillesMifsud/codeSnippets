@@ -1,0 +1,23 @@
+{% if snippets is defined and snippets is not null %}
+    <div class="grid-x grid-margin-x">
+        {% for snippet in snippets %}
+            <div class="cell small-12 medium-3">
+                <div class="card">
+                    <div class="card-divider">
+                        <a href="{{ path('snippet.show', {id: snippet.id, slug: snippet.slug}) }}">
+                            {{ snippet.title }}
+                        </a>
+                    </div>
+                    <div class="card-section">
+                        <div>
+                            {% for language in snippet.language %}
+                                <b>{{ language.name }}</b>
+                            {% endfor %}
+                        </div>
+                        <p>{{ snippet.content }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}

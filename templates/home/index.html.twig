@@ -1,12 +1,14 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello {{ controller_name }}!{% endblock %}
+{% block title %}Home{% endblock %}
 
 {% block body %}
     <div class="grid-container">
+        <h2>Latest snipps</h2>
+        {% include 'snippets/_snippet-list.html.twig' %}
         <div class="grid-x grid-margin-x">
             <div class="cell">
-                <h1>Hello {{ controller_name }}! ✅</h1>
+                <h2>Latest languages</h2>
             </div>
         </div>
     </div>

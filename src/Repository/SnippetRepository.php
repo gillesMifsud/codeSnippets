@@ -19,6 +19,18 @@ class SnippetRepository extends ServiceEntityRepository
         parent::__construct($registry, Snippet::class);
     }
 
+    /**
+     * @return Snippet[] Returns an array of Snippet objects
+     */
+    public function findLatest(): array
+    {
+        return $this->createQueryBuilder('s')
+            ->setMaxResults(8)
+            ->getQuery()
+            ->getResult()
+        ;
+    }
+
     // /**
     //  * @return Snippet[] Returns an array of Snippet objects
     //  */

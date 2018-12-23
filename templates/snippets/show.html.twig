@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {% if snippet is defined and snippet is not null %}
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="cell">
+                    <h1>{{ snippet.title }}</h1>
+                    <div>
+                        <div>
+                            {% for language in snippet.language %}
+                                <b>{{ language.name }}</b>
+                            {% endfor %}
+                        </div>
+                        <p>{{ snippet.content }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}
+
+{% block title %}{{ snippet.title }}{% endblock %}
