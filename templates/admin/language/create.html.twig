@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Créer un language{% endblock %}
+
+{% block body %}
+    <div class="grid-container">
+        <h2>Ajouter un language</h2>
+        {{ form_start(form_language) }}
+        {{ form_widget(form_language) }}
+        <button class="button">Valider</button>
+        {{ form_end(form_language) }}
+    </div>
+{% endblock %}

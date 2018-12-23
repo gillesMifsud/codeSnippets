@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Editer les snippets{% endblock %}
+
+{% block body %}
+    <div class="grid-container">
+        <h2>Editer les snippets</h2>
+
+        {% for message in app.flashes('success') %}
+            <div class="callout success">
+                {{ message }}
+            </div>
+        {% endfor %}
+
+        <table>
+            <thead>
+                <tr>
+                    <th width="200">Snippet</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for snippet in snippets %}
+                <tr>
+                    <td>{{ snippet.title }}</td>
+                    <td>
+                        <a href="{{ path('admin.snippet.edit', { id: snippet.id }) }}" class="button">Editer</a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+        <div class="grid-x grid-margin-x">
+            <div class="cell">
+                <a href="{{ path('admin.snippet.create') }}" class="button">Créer un snippet</a>
+            </div>
+            <div class="cell">
+                <a href="{{ path('admin.language.create') }}" class="button">Créer un language</a>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

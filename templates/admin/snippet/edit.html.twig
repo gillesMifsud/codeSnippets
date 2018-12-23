@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Editer le snippet{% endblock %}
+
+{% block body %}
+    <div class="grid-container">
+        <h2>Editer le snippet</h2>
+        {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <button class="button">Valider</button>
+        {{ form_end(form) }}
+    </div>
+{% endblock %}
