@@ -12,39 +12,45 @@
             </div>
         {% endfor %}
 
-        <table>
-            <thead>
-                <tr>
-                    <th width="200">Snippet</th>
-                    <th>Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-            {% for snippet in snippets %}
-                <tr>
-                    <td>{{ snippet.title }}</td>
-                    <td>
-                        <a href="{{ path('admin.snippet.edit', { id: snippet.id }) }}" class="button">Editer</a>
-                        <form method="post" action="{{ path('admin.snippet.delete', { id: snippet.id }) }}"
-                        onsubmit="confirm('Supprimer?')">
-                            <input type="hidden" name="_method" value="DELETE">
-                            <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ snippet.id) }}">
-                            <button class="button alert">Supprimer</button>
-                        </form>
-                    </td>
-                </tr>
-            {% endfor %}
-            </tbody>
-        </table>
+        <ul class="tabs" data-responsive-accordion-tabs="tabs small-accordion medium-tabs" id="admin-tabs">
+            <li class="tabs-title is-active"><a href="#snippets" aria-selected="true">Snippets</a></li>
+            <li class="tabs-title"><a href="#languages">Languages</a></li>
+        </ul>
 
-        <div class="grid-x grid-margin-x">
-            <div class="cell">
+        <div class="tabs-content" data-tabs-content="admin-tabs">
+            <div class="tabs-panel is-active" id="snippets">
                 <a href="{{ path('admin.snippet.create') }}" class="button">Créer un snippet</a>
+                <table>
+                    <thead>
+                    <tr>
+                        <th width="200">Snippet</th>
+                        <th>Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for snippet in snippets %}
+                        <tr>
+                            <td>{{ snippet.title }}</td>
+                            <td>
+                                <a href="{{ path('admin.snippet.edit', { id: snippet.id }) }}" class="button">Editer</a>
+                                <form method="post" action="{{ path('admin.snippet.delete', { id: snippet.id }) }}"
+                                      onsubmit="confirm('Supprimer?')" style="display: inline-block;">
+                                    <input type="hidden" name="_method" value="DELETE">
+                                    <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ snippet.id) }}">
+                                    <button class="button alert">Supprimer</button>
+                                </form>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
             </div>
-            <div class="cell">
+
+            <div class="tabs-panel" id="languages">
                 <a href="{{ path('admin.language.create') }}" class="button">Créer un language</a>
             </div>
         </div>
+
 
     </div>
 {% endblock %}
