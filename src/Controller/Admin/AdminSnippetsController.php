@@ -84,7 +84,7 @@ class AdminSnippetsController extends AbstractController
     }
 
     /**
-     * @Route("/admin/snippet/edit/{id}", name="admin.snippet.edit")
+     * @Route("/admin/snippet/edit/{id}", name="admin.snippet.edit", methods={"GET|POST"})
      * @param Snippet $snippet
      * @param Request $request
      * @return \Symfony\Component\HttpFoundation\Response
@@ -103,6 +103,22 @@ class AdminSnippetsController extends AbstractController
         return $this->render('admin/snippet/edit.html.twig', [
             'form' => $form->createView()
         ]);
+    }
+
+    /**
+     * @Route("/admin/snippet/edit/{id}", name="admin.snippet.delete", methods={"DELETE"})
+     * @param Snippet $snippet
+     * @param Request $request
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse
+     */
+    public function delete(Snippet $snippet, Request $request)
+    {
+        if ($this->isCsrfTokenValid('delete' . $snippet->getId(), $request->get('_token'))) {
+            $this->em->remove($snippet);
+            $this->em->flush();
+            $this->addFlash('success', 'Snippet supprimé avec succès');
+        }
+        return $this->redirectToRoute('admin.snippet.index');
     }
 
 }

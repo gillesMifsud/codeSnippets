@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674249c9-60b1-4b76-bcc2-213a63fc2e72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminLanguageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminSnippetsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/language/create.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/snippet/create.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/snippet/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/snippet/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminSnippetsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminSnippetsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/snippet/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/snippet/index.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminSnippetsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="63" selection-start-line="63" selection-end-line="64" />
+            <state relative-caret-position="308">
+              <caret line="108" column="88" selection-start-line="108" selection-start-column="88" selection-end-line="108" selection-end-column="88" />
               <folding>
                 <element signature="e#41#65#0#PHP" expanded="true" />
                 <element signature="e#986#1017#0#PHP" expanded="true" />
@@ -71,12 +66,13 @@
                 <element signature="e#1915#1947#0#PHP" expanded="true" />
                 <element signature="e#1647#1668#1#PHP" expanded="true" />
                 <element signature="e#1711#1741#0#PHP" expanded="true" />
+                <element signature="e#3939#3960#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminLanguageController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
@@ -123,12 +119,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/admin/snippet/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+            <state relative-caret-position="302">
+              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
               <folding>
                 <element signature="e#12#26#0#Twig" expanded="true" />
                 <element signature="e#722#740#0#Twig" expanded="true" />
+                <element signature="e#835#855#0#Twig" expanded="true" />
                 <element signature="e#1013#1033#0#Twig" expanded="true" />
+                <element signature="e#1160#1181#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,9 +158,9 @@
         <option value="$PROJECT_DIR$/src/Form/LanguageType.php" />
         <option value="$PROJECT_DIR$/templates/admin/snippet/create.html.twig" />
         <option value="$PROJECT_DIR$/templates/admin/language/create.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/Admin/AdminLanguageController.php" />
         <option value="$PROJECT_DIR$/templates/admin/snippet/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/Admin/AdminSnippetsController.php" />
-        <option value="$PROJECT_DIR$/src/Controller/Admin/AdminLanguageController.php" />
       </list>
     </option>
   </component>
@@ -378,12 +376,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545545771303</updated>
-      <workItem from="1545545772555" duration="16945000" />
+      <workItem from="1545545772555" duration="18075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16945000" />
+    <option name="totallyTimeSpent" value="18075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -591,18 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/snippet/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-            <element signature="e#722#740#0#Twig" expanded="true" />
-            <element signature="e#1013#1033#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/form/FormView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -617,22 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminSnippetsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="63" selection-start-line="63" selection-end-line="64" />
-          <folding>
-            <element signature="e#41#65#0#PHP" expanded="true" />
-            <element signature="e#986#1017#0#PHP" expanded="true" />
-            <element signature="e#1661#1682#1#PHP" expanded="true" />
-            <element signature="e#2337#2359#1#PHP" expanded="true" />
-            <element signature="e#1915#1947#0#PHP" expanded="true" />
-            <element signature="e#1647#1668#1#PHP" expanded="true" />
-            <element signature="e#1711#1741#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminLanguageController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -641,6 +611,37 @@
             <element signature="e#41#65#0#PHP" expanded="true" />
             <element signature="e#1606#1627#1#PHP" expanded="true" />
             <element signature="e#1671#1704#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/snippet/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+            <element signature="e#722#740#0#Twig" expanded="true" />
+            <element signature="e#835#855#0#Twig" expanded="true" />
+            <element signature="e#1013#1033#0#Twig" expanded="true" />
+            <element signature="e#1160#1181#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminSnippetsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="108" column="88" selection-start-line="108" selection-start-column="88" selection-end-line="108" selection-end-column="88" />
+          <folding>
+            <element signature="e#41#65#0#PHP" expanded="true" />
+            <element signature="e#986#1017#0#PHP" expanded="true" />
+            <element signature="e#1661#1682#1#PHP" expanded="true" />
+            <element signature="e#2337#2359#1#PHP" expanded="true" />
+            <element signature="e#1915#1947#0#PHP" expanded="true" />
+            <element signature="e#1647#1668#1#PHP" expanded="true" />
+            <element signature="e#1711#1741#0#PHP" expanded="true" />
+            <element signature="e#3939#3960#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

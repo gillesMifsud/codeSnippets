@@ -25,6 +25,12 @@
                     <td>{{ snippet.title }}</td>
                     <td>
                         <a href="{{ path('admin.snippet.edit', { id: snippet.id }) }}" class="button">Editer</a>
+                        <form method="post" action="{{ path('admin.snippet.delete', { id: snippet.id }) }}"
+                        onsubmit="confirm('Supprimer?')">
+                            <input type="hidden" name="_method" value="DELETE">
+                            <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ snippet.id) }}">
+                            <button class="button alert">Supprimer</button>
+                        </form>
                     </td>
                 </tr>
             {% endfor %}
