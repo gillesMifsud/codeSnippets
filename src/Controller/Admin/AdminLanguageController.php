@@ -59,4 +59,42 @@ class AdminLanguageController extends AbstractController
         ]);
     }
 
+    /**
+     * @Route("/admin/language/edit/{id}", name="admin.language.edit", methods={"GET|POST"})
+     * @param Language $language
+     * @param Request $request
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response
+     */
+    public function edit(Language $language, Request $request)
+    {
+        $form = $this->createForm(LanguageType::class, $language);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $this->em->flush();
+            $this->addFlash('success', 'Language modifié avec succès');
+            return $this->redirectToRoute('admin.snippet.index');
+        }
+
+        return $this->render('admin/language/edit.html.twig', [
+            'form' => $form->createView()
+        ]);
+    }
+
+    /**
+     * @Route("/admin/language/edit/{id}", name="admin.language.delete", methods={"DELETE"})
+     * @param Language $language
+     * @param Request $request
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse
+     */
+    public function delete(Language $language, Request $request)
+    {
+        if ($this->isCsrfTokenValid('delete' . $language->getId(), $request->get('_token'))) {
+            $this->em->remove($language);
+            $this->em->flush();
+            $this->addFlash('success', 'Language supprimé avec succès');
+        }
+        return $this->redirectToRoute('admin.snippet.index');
+    }
+
 }

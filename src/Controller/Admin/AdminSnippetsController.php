@@ -7,6 +7,7 @@ use App\Entity\Language;
 use App\Entity\Snippet;
 use App\Form\LanguageType;
 use App\Form\SnippetType;
+use App\Repository\LanguageRepository;
 use App\Repository\SnippetRepository;
 use Doctrine\Common\Persistence\ObjectManager;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -23,16 +24,25 @@ class AdminSnippetsController extends AbstractController
      * @var ObjectManager
      */
     private $em;
+    /**
+     * @var LanguageRepository
+     */
+    private $languageRepository;
 
     /**
      * AdminSnippetsController constructor.
      * @param SnippetRepository $snippetRepository
      * @param ObjectManager $em
+     * @param LanguageRepository $languageRepository
      */
-    public function __construct(SnippetRepository $snippetRepository, ObjectManager $em)
+    public function __construct(
+        SnippetRepository $snippetRepository,
+        ObjectManager $em,
+        LanguageRepository $languageRepository)
     {
         $this->snippetRepository = $snippetRepository;
         $this->em = $em;
+        $this->languageRepository = $languageRepository;
     }
 
     /**
@@ -42,8 +52,11 @@ class AdminSnippetsController extends AbstractController
     public function index()
     {
         $snippets = $this->snippetRepository->findAll();
+        $languages = $this->languageRepository->findAll();
+
         return $this->render('admin/snippet/index.html.twig', [
-            'snippets' => $snippets
+            'snippets' => $snippets,
+            'languages' => $languages
         ]);
     }
 

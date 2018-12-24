@@ -32,12 +32,12 @@
                         <tr>
                             <td>{{ snippet.title }}</td>
                             <td>
-                                <a href="{{ path('admin.snippet.edit', { id: snippet.id }) }}" class="button">Editer</a>
+                                <a href="{{ path('admin.snippet.edit', { id: snippet.id }) }}" class="button secondary small">Editer</a>
                                 <form method="post" action="{{ path('admin.snippet.delete', { id: snippet.id }) }}"
                                       onsubmit="confirm('Supprimer?')" style="display: inline-block;">
                                     <input type="hidden" name="_method" value="DELETE">
                                     <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ snippet.id) }}">
-                                    <button class="button alert">Supprimer</button>
+                                    <button class="button alert small">Supprimer</button>
                                 </form>
                             </td>
                         </tr>
@@ -48,6 +48,31 @@
 
             <div class="tabs-panel" id="languages">
                 <a href="{{ path('admin.language.create') }}" class="button">Créer un language</a>
+
+                <table>
+                    <thead>
+                    <tr>
+                        <th width="200">Language</th>
+                        <th>Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for language in languages %}
+                        <tr>
+                            <td>{{ language.name }}</td>
+                            <td>
+                                <a href="{{ path('admin.language.edit', { id: language.id }) }}" class="button secondary small">Editer</a>
+                                <form method="post" action="{{ path('admin.language.delete', { id: language.id }) }}"
+                                      onsubmit="confirm('Supprimer?')" style="display: inline-block;">
+                                    <input type="hidden" name="_method" value="DELETE">
+                                    <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ language.id) }}">
+                                    <button class="button alert small">Supprimer</button>
+                                </form>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
             </div>
         </div>
 
