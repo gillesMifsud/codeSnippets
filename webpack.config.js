@@ -39,7 +39,16 @@ Encore
     .enableVersioning(Encore.isProduction())
 
     // enables Sass/SCSS support
-    //.enableSassLoader()
+    .enableSassLoader(function(options) {
+        // https://github.com/sass/node-sass#options
+        options.includePaths = [
+            'node_modules/foundation-sites/scss',
+            'node_modules/select2/src/scss',
+        ]
+    }, {
+        // set optional Encore-specific options
+        // resolveUrlLoader: true
+    })
 
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()

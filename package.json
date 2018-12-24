@@ -1,6 +1,8 @@
 {
     "devDependencies": {
         "@symfony/webpack-encore": "^0.22.0",
+        "node-sass": "^4.11.0",
+        "sass-loader": "^7.0.1",
         "webpack-notifier": "^1.6.0"
     },
     "license": "UNLICENSED",
@@ -10,5 +12,12 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
+    },
+    "dependencies": {
+        "foundation-sites": "^6.5.1",
+        "jquery": ">=3.0.0",
+        "motion-ui": "~2.0.0",
+        "what-input": "^5.1.2",
+        "select2": "^4.0.6-rc.1"
     }
 }
