@@ -4,6 +4,7 @@ namespace App\Repository;
 
 use App\Entity\Snippet;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
+use Doctrine\ORM\Query;
 use Symfony\Bridge\Doctrine\RegistryInterface;
 
 /**
@@ -29,6 +30,16 @@ class SnippetRepository extends ServiceEntityRepository
             ->getQuery()
             ->getResult()
         ;
+    }
+
+    /**
+     * @return Query
+     */
+    public function findAllPaginateQuery(): Query
+    {
+        return $this->createQueryBuilder('s')
+            ->getQuery()
+            ;
     }
 
     // /**

@@ -5,7 +5,9 @@ namespace App\Controller;
 use App\Entity\Language;
 use App\Entity\Snippet;
 use App\Repository\SnippetRepository;
+use Knp\Component\Pager\PaginatorInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -27,10 +29,18 @@ class SnippetsController extends AbstractController
 
     /**
      * @Route("/snippets", name="snippets.index")
+     * @param PaginatorInterface $paginator
+     * @param Request $request
+     * @return Response
      */
-    public function index(): Response
+    public function index(PaginatorInterface $paginator, Request $request): Response
     {
-        $snippets = $this->snippetRepository->findAll();
+        $query = $this->snippetRepository->findAllPaginateQuery();
+
+        $snippets = $paginator->paginate(
+            $query, /* query NOT result */
+            $request->query->getInt('page', 1)/*page number*/,
+            12/*limit per page*/  );
 
         return $this->render('snippets/index.html.twig', [
             'current_menu' => 'snippets',
