@@ -4,6 +4,7 @@ namespace App\Form;
 
 use App\Entity\Language;
 use App\Entity\Snippet;
+use FOS\CKEditorBundle\Form\Type\CKEditorType;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
@@ -16,7 +17,7 @@ class SnippetType extends AbstractType
     {
         $builder
             ->add('title')
-            ->add('content')
+            ->add('content', CKEditorType::class)
             ->add('language', EntityType::class, [
                 'class' => Language::class,
                 'choice_label' => 'name',

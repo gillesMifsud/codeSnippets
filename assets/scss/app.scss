@@ -62,3 +62,9 @@
 // Motion UI
 //@include motion-ui-transitions;
 //@include motion-ui-animations;
+
+.top-bar {
+  a {
+    text-transform: uppercase;
+  }
+}
