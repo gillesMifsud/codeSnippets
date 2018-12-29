@@ -4,6 +4,7 @@ namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\UserRepository")
@@ -20,12 +21,23 @@ class User implements UserInterface, \Serializable
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $username;
+    private $email;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
+    private $username;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     * @Assert\Length(min="8", minMessage="Please enter at least 8 caracters")
+     */
     private $password;
+
+    /**
+     * @Assert\EqualTo(propertyPath="password", message="Please enter same password values")
+     */
+    private $confirm_password;
 
     public function getId(): ?int
     {
@@ -56,6 +68,17 @@ class User implements UserInterface, \Serializable
         return $this;
     }
 
+    public function getConfirmPassword()
+    {
+        return $this->confirm_password;
+    }
+
+    public function setConfirmPassword(string $confirm_password): self
+    {
+        $this->confirm_password = $confirm_password;
+        return $this;
+    }
+
     /**
      * Returns the roles granted to the user.
      *
@@ -72,7 +95,7 @@ class User implements UserInterface, \Serializable
      */
     public function getRoles()
     {
-        return ['ROLE_ADMIN'];
+        return ['ROLE_USER'];
     }
 
     /**
@@ -129,5 +152,17 @@ class User implements UserInterface, \Serializable
             $this->username,
             $this->password
             ) = unserialize($serialized, ['allowed_classes' => false]);
+    }
+
+    public function getEmail(): ?string
+    {
+        return $this->email;
+    }
+
+    public function setEmail(string $email): self
+    {
+        $this->email = $email;
+
+        return $this;
     }
 }

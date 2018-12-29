@@ -6,6 +6,12 @@
     <div class="grid-container">
         <h2>Se connecter</h2>
 
+        {% for message in app.flashes('success') %}
+            <div class="callout success">
+                {{ message }}
+            </div>
+        {% endfor %}
+
         {% if error %}
             <div class="callout alert">
                 {{ error.messageKey | trans(error.messageData, 'security') }}

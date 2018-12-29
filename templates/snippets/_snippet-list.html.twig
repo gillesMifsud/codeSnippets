@@ -1,5 +1,14 @@
 {% if snippets is defined and snippets is not null %}
+
+
     <div class="grid-x grid-margin-x">
+
+        {% for message in app.flashes('success') %}
+            <div class="cell small-12 callout success">
+                {{ message }}
+            </div>
+        {% endfor %}
+
         {% for snippet in snippets %}
             <div class="cell small-12 medium-3">
                 <div class="card">

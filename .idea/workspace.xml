@@ -2,17 +2,331 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674249c9-60b1-4b76-bcc2-213a63fc2e72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/NewForum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewForum.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/CHANGES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/adapters/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/build-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/contents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/about/dialogs/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/clipboard/dialogs/paste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/dialogs/codesnippet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/CHANGES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/README.ru.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/arta.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/ascetic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_paper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_papersq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/docco.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/far.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/googlecode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/idea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/ir_black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/magula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/mono-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/obsidian.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/railscasts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/rainbow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/sunburst.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-bright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-eighties.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/vs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/xcode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/codesnippet/lib/highlight/styles/zenburn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/dialog/dialogDefinition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/icons_hidpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/image/dialogs/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/image/images/noimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/link/dialogs/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/link/dialogs/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/link/images/anchor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/link/images/hidpi/anchor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/magicline/images/hidpi/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/magicline/images/icon-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/magicline/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/pastefromword/filter/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/scayt/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/scayt/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/scayt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/scayt/dialogs/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/scayt/dialogs/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/scayt/dialogs/toolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/table/dialogs/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/tableselection/styles/tableselection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/widget/images/handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/wsc/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/wsc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/wsc/dialogs/ciframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/wsc/dialogs/wsc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/css/samples.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/img/github-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/img/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/img/header-separator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/img/navigation-tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/js/sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/js/sf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/appendto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/assets/inlineall/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/assets/posteddata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/assets/sample.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/assets/uilanguages/languages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/codesnippet/codesnippet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/datafiltering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/dialog/assets/my_dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/dialog/dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/divreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/enterkey/enterkey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/htmlwriter/outputforflash.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/htmlwriter/outputhtml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/inlineall.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/inlinebycode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/inlinetextarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/jquery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/magicline/magicline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/readonly.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/replacebyclass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/replacebycode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/sample.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/sample_posteddata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/tabindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/toolbar/toolbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/uicolor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/uilanguages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/wysiwygarea/fullpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/old/xhtmlstyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/font/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/font/fontello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/dialog_ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/dialog_ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/dialog_iequirks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/editor_gecko.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/editor_ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/editor_ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/editor_iequirks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/icons_hidpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/images/hidpi/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/images/hidpi/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/images/lock-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/images/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/images/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/images/spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/skins/moono-lisa/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ckeditor/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/forms/foundation_6_layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/security/register.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/SnippetType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/SnippetType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bundles/KnpPaginatorBundle/Pagination/foundation_6_pagination.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/KnpPaginatorBundle/Pagination/foundation_6_pagination.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/fos_ckeditor.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/fos_ckeditor.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/inc/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inc/navbar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/snippets/_snippet-list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/snippets/_snippet-list.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,31 +378,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/SnippetsController.php">
+        <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+            <state relative-caret-position="462">
+              <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
               <folding>
-                <element signature="e#34#58#0#PHP" expanded="true" />
+                <element signature="e#34#54#0#PHP" expanded="true" />
+                <element signature="e#2112#2119#1#PHP" expanded="true" />
+                <element signature="e#2186#2215#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/snippets/index.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/security/register.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bundles/KnpPaginatorBundle/Pagination/foundation_6_pagination.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+            <state relative-caret-position="132">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -96,62 +403,82 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/snippets/_snippet-list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+            <state relative-caret-position="110">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/packages/twig.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/forms/foundation_6_layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7150">
+              <caret line="325" column="72" selection-start-line="325" selection-start-column="72" selection-end-line="325" selection-end-column="72" />
+              <folding>
+                <element signature="e#12#37#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#30#62#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Form/SnippetType.php">
+        <entry file="file://$PROJECT_DIR$/templates/inc/navbar.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="330">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <folding>
+                <element signature="e#673#681#0#Twig" expanded="true" />
+                <element signature="e#744#749#0#Twig" expanded="true" />
+                <element signature="e#803#809#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/templates/admin/snippet/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/_settings.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/translations/KnpPaginatorBundle.fr.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Repository/SnippetRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            <state relative-caret-position="176">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -198,13 +525,9 @@
         <option value="$PROJECT_DIR$/templates/admin/language/create.html.twig" />
         <option value="$PROJECT_DIR$/templates/admin/snippet/create.html.twig" />
         <option value="$PROJECT_DIR$/templates/admin/snippet/edit.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
-        <option value="$PROJECT_DIR$/templates/security/login.html.twig" />
-        <option value="$PROJECT_DIR$/src/Entity/User.php" />
         <option value="$PROJECT_DIR$/config/routes.yaml" />
         <option value="$PROJECT_DIR$/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" />
-        <option value="$PROJECT_DIR$/templates/inc/navbar.html.twig" />
         <option value="$PROJECT_DIR$/src/DataFixtures/SnippetsFixtures.php" />
         <option value="$PROJECT_DIR$/src/Repository/SnippetRepository.php" />
         <option value="$PROJECT_DIR$/src/Controller/SnippetsController.php" />
@@ -213,12 +536,21 @@
         <option value="$PROJECT_DIR$/config/packages/knp_paginator.yml" />
         <option value="$PROJECT_DIR$/templates/snippets/index.html.twig" />
         <option value="$PROJECT_DIR$/translations/KnpPaginatorBundle.yml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/templates/bundles/KnpPaginatorBundle/Pagination/foundation_6_pagination.html.twig" />
-        <option value="$PROJECT_DIR$/templates/snippets/_snippet-list.html.twig" />
         <option value="$PROJECT_DIR$/src/Form/SnippetType.php" />
+        <option value="$PROJECT_DIR$/config/packages/fos_ckeditor.yaml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Form/RegisterType.php" />
+        <option value="$PROJECT_DIR$/config/packages/twig.yaml" />
+        <option value="$PROJECT_DIR$/templates/forms/foundation_6_layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/templates/security/register.html.twig" />
+        <option value="$PROJECT_DIR$/templates/snippets/_snippet-list.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/templates/security/login.html.twig" />
+        <option value="$PROJECT_DIR$/templates/inc/navbar.html.twig" />
       </list>
     </option>
   </component>
@@ -344,6 +676,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -354,18 +687,26 @@
             <path>
               <item name="NewForum" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewForum" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewForum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewForum" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewForum" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewForum" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewForum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewForum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewForum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewForum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewForum" type="b2602c69:ProjectViewProjectNode" />
@@ -382,18 +723,31 @@
               <item name="NewForum" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewForum" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="snippets" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewForum" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewForum" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="snippet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewForum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewForum" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewForum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewForum" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="snippets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,19 +762,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/bundles/KnpPaginatorBundle" />
-      <recent name="$PROJECT_DIR$/templates/bundles" />
-      <recent name="$PROJECT_DIR$/templates/bundles/knp-paginator-bundle/Resources/views" />
-      <recent name="$PROJECT_DIR$/templates/bundles/knp-paginator-bundle" />
-      <recent name="$PROJECT_DIR$/templates/bundles/knp-paginator-bundle/Resources/views/Pagination" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/translations" />
       <recent name="$PROJECT_DIR$/config/packages" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/assets/scss" />
       <recent name="$PROJECT_DIR$/src/Controller/Admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/bundles" />
+      <recent name="$PROJECT_DIR$/public/bundles/fosckeditor/plugins" />
+      <recent name="$PROJECT_DIR$/bundles" />
+      <recent name="$PROJECT_DIR$/templates/bundles/KnpPaginatorBundle" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -447,18 +801,19 @@
       <updated>1545545771303</updated>
       <workItem from="1545545772555" duration="30741000" />
       <workItem from="1545829186819" duration="7294000" />
-      <workItem from="1545851012315" duration="1654000" />
+      <workItem from="1545851012315" duration="1932000" />
+      <workItem from="1545919223360" duration="5863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39689000" />
+    <option name="totallyTimeSpent" value="45830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20171674" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20457797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -486,64 +841,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/scss/foundation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/scss/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4730" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@symfony/webpack-encore/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="664" column="18" selection-start-line="664" selection-start-column="18" selection-end-line="670" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/webpack/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-611">
-          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/build/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360695">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/build/entrypoints.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/twig.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/webpack_encore.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/scss/util/_util.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/build/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle/src/Twig/EntryFilesTwigExtension.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
@@ -584,16 +881,6 @@
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminSnippetsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="134" selection-end-column="5" />
-          <folding>
-            <element signature="e#41#65#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -646,54 +933,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/snippet/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="e#320#346#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
-          <folding>
-            <element signature="e#193#198#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="115" column="7" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
-          <folding>
-            <element signature="e#30#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -708,23 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/inc/navbar.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#803#809#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,10 +997,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/snippets/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/bundles/KnpPaginatorBundle/Pagination/foundation_6_pagination.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="66">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -792,45 +1032,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/ckeditor-bundle/src/Config/CKEditorConfigurationInterface.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/ckeditor-bundle/src/Config/CKEditorConfiguration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4474" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/ckeditor-bundle/src/Resources/views/Form/ckeditor_widget.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/ckeditor-bundle/src/Resources/public/ckeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/ckeditor-bundle/src/Resources/public/config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/bundles.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/fos_ckeditor.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/KnpPaginatorBundle/Pagination/foundation_6_pagination.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/snippets/_snippet-list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+        <state relative-caret-position="747">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/SnippetType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <caret line="19" column="48" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/RegisterType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/twig-bridge/Resources/views/Form/foundation_5_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#37#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/forms/foundation_6_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7150">
+          <caret line="325" column="72" selection-start-line="325" selection-start-column="72" selection-end-line="325" selection-end-column="72" />
+          <folding>
+            <element signature="e#12#37#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#30#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/snippet/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminSnippetsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="112" selection-end-column="65" />
+          <folding>
+            <element signature="e#41#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/security/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/snippets/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/snippets/_snippet-list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+          <folding>
+            <element signature="e#34#54#0#PHP" expanded="true" />
+            <element signature="e#2112#2119#1#PHP" expanded="true" />
+            <element signature="e#2186#2215#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inc/navbar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#673#681#0#Twig" expanded="true" />
+            <element signature="e#744#749#0#Twig" expanded="true" />
+            <element signature="e#803#809#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
