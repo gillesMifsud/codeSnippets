@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use App\Entity\Language;
+use App\Entity\Search;
 use App\Entity\Snippet;
 use App\Repository\SnippetRepository;
 use Knp\Component\Pager\PaginatorInterface;
@@ -10,6 +10,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use App\Form\SearchType;
+
 
 class SnippetsController extends AbstractController
 {
@@ -35,8 +37,8 @@ class SnippetsController extends AbstractController
      */
     public function index(PaginatorInterface $paginator, Request $request): Response
     {
+        // Pagination index
         $query = $this->snippetRepository->findAllPaginateQuery();
-
         $snippets = $paginator->paginate(
             $query, /* query NOT result */
             $request->query->getInt('page', 1)/*page number*/,
@@ -65,6 +67,22 @@ class SnippetsController extends AbstractController
         return $this->render('snippets/show.html.twig', [
             'current_menu' => 'snippets',
             'snippet' => $snippet
+        ]);
+    }
+
+    /**
+     * @Route("/search", name="search")
+     * @param Request $request
+     * @return Response
+     */
+    public function search(Request $request): Response
+    {
+        $search = new Search();
+        $form = $this->createForm(SearchType::class, $search);
+        $form->handleRequest($request);
+
+        return $this->render('inc/_search.html.twig', [
+            'form' => $form->createView()
         ]);
     }
 }

@@ -15,8 +15,11 @@
                 <li><a href="{{ path('register') }}">Register</a></li>
                 <li><a href="{{ path('login') }}">Login</a></li>
             {% endif %}
-            <li><input type="search" placeholder="Search"></li>
-            <li><button type="button" class="button">Search</button></li>
+
+            {{ render(controller(
+                'App\\Controller\\SnippetsController::search'
+            )) }}
+
             {% if app.user %}
                 <li><a href="{{ path('logout') }}">Déconnexion</a></li>
             {% endif %}
