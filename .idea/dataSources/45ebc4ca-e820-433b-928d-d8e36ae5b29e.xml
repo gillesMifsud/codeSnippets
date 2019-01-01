@@ -1116,98 +1116,131 @@
     <table id="280" parent="2" name="snippet_language">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <column id="281" parent="277" name="id">
+    <table id="281" parent="2" name="user">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <column id="282" parent="277" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="277" name="name">
+    <column id="283" parent="277" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="283" parent="277" name="PRIMARY">
+    <key id="284" parent="277" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="284" parent="278" name="version">
+    <column id="285" parent="278" name="version">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="285" parent="278" name="PRIMARY">
+    <key id="286" parent="278" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>version</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="286" parent="279" name="id">
+    <column id="287" parent="279" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="287" parent="279" name="title">
+    <column id="288" parent="279" name="title">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="279" name="content">
+    <column id="289" parent="279" name="content">
       <Position>3</Position>
       <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="289" parent="279" name="PRIMARY">
+    <key id="290" parent="279" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="290" parent="280" name="snippet_id">
+    <column id="291" parent="280" name="snippet_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="291" parent="280" name="language_id">
+    <column id="292" parent="280" name="language_id">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="292" parent="280" name="IDX_CB5EA3D26E34B975">
+    <index id="293" parent="280" name="IDX_CB5EA3D26E34B975">
       <ColNames>snippet_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="293" parent="280" name="IDX_CB5EA3D282F1BAF4">
+    <index id="294" parent="280" name="IDX_CB5EA3D282F1BAF4">
       <ColNames>language_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="294" parent="280" name="PRIMARY">
+    <key id="295" parent="280" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>snippet_id
 language_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="295" parent="280" name="FK_CB5EA3D26E34B975">
+    <foreign-key id="296" parent="280" name="FK_CB5EA3D26E34B975">
       <ColNames>snippet_id</ColNames>
       <RefSchemaName>codesnippets</RefSchemaName>
       <RefTableName>snippet</RefTableName>
       <RefColNames>id</RefColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <foreign-key id="296" parent="280" name="FK_CB5EA3D282F1BAF4">
+    <foreign-key id="297" parent="280" name="FK_CB5EA3D282F1BAF4">
       <ColNames>language_id</ColNames>
       <RefSchemaName>codesnippets</RefSchemaName>
       <RefTableName>language</RefTableName>
       <RefColNames>id</RefColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
+    <column id="298" parent="281" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="281" name="username">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="281" name="password">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="301" parent="281" name="email">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="302" parent="281" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>

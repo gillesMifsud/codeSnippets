@@ -6,10 +6,8 @@
     <div class="grid-container">
         <h2>Latest snipps</h2>
         {% include 'snippets/_snippet-list.html.twig' %}
-        <div class="grid-x grid-margin-x">
-            <div class="cell">
-                <h2>Latest languages</h2>
-            </div>
-        </div>
+        <hr>
+        <h2>Latest languages</h2>
+        {% include 'languages/_languages-list.html.twig' %}
     </div>
 {% endblock %}

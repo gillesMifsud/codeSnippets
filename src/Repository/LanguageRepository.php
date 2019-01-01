@@ -3,6 +3,7 @@
 namespace App\Repository;
 
 use App\Entity\Language;
+use App\Entity\Snippet;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Symfony\Bridge\Doctrine\RegistryInterface;
 
@@ -17,6 +18,18 @@ class LanguageRepository extends ServiceEntityRepository
     public function __construct(RegistryInterface $registry)
     {
         parent::__construct($registry, Language::class);
+    }
+
+    /**
+     * @return Language[] Returns an array of Language objects
+     */
+    public function findLatest(): array
+    {
+        return $this->createQueryBuilder('l')
+            ->setMaxResults(8)
+            ->getQuery()
+            ->getResult()
+            ;
     }
 
     // /**

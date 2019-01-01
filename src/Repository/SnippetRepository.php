@@ -2,6 +2,7 @@
 
 namespace App\Repository;
 
+use App\Entity\Language;
 use App\Entity\Snippet;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\ORM\Query;
@@ -39,6 +40,35 @@ class SnippetRepository extends ServiceEntityRepository
     {
         return $this->createQueryBuilder('s')
             ->getQuery()
+            ;
+    }
+
+    /**
+     * @param $language
+     * @return Snippet[]|null Returns an array of Snippet objects
+     */
+    public function findAllByLanguage(Language $language): array
+    {
+        return $this->createQueryBuilder('s')
+
+            ->andWhere('s.id = :val')
+            ->setParameter('val', 'BurlyWood')
+            ->getQuery()
+            ->getResult()
+            ;
+    }
+
+    /**
+     * @param Language $language
+     * @return Snippet[] Returns an array of Snippet objects
+     */
+    public function findSnippetsByLanguage(Language $language)
+    {
+        return $this->createQueryBuilder('s')
+            ->andWhere('s.exampleField = :val')
+            ->setParameter('val', $languages)
+            ->getQuery()
+            ->getResult()
             ;
     }
 

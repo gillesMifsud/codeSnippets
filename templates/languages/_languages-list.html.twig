@@ -1,0 +1,12 @@
+{% if languages is defined and languages is not null %}
+
+    <div class="grid-x grid-margin-x">
+        <div class="cell">
+        {% for language in languages %}
+            <a href="{{ path('languages.show', {id: language.id, slug: language.slug}) }}">
+                {{ language.name }}
+            </a>
+        {% endfor %}
+        </div>
+    </div>
+{% endif %}
